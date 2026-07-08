@@ -9,8 +9,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--PARTIE 2 : NOS ACTIONS-->
-<section class="missions">
+   
+    <header>
+        <nav>
+            <ul>
+               <li><a href="#accueil">Accueil</a></li>
+               <li><a href="#actions">Nos Actions</a></li>
+               <li><a href="#evenements">Evenements avenir</a></li>
+               <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section id="accueil">
+       <!-- met ton code ici -->
+       </section>
+    
+        <!--PARTIE 2 : NOS ACTIONS-->
+<section class="missions" id="actions">
   <div class="container">
     <!--titre principl de la section-->
         <h2 class="section-title">Nos Actions sur le Terrain</h2>
@@ -73,5 +90,65 @@
     </div>
   </div>
 </section>
+    
+       <section id="evenements">
+       <!-- met ton code ici -->
+       </section>
+    
+       <section id="contacts" class="contacts">
+       <!-- met ton code ici -->
+        <h2 class="contacts-h2">Contactez-nous</h2>
+            <p class="contacts-p">
+                Vous souhaitez participer au reboisement de la forêt du Mayombe,
+                devenir bénévole, proposer un partenariat ou simplement obtenir
+                davantage d'informations ?
+            </p>
+        <form action="submit" class="contacts-form">
+            <fieldset class="contacts-fieldset">
+                <legend class="contacts-legend">Formulaire de contact</legend>
+
+                <p class="contacts-p-p">
+                    <label for="nom">Noms complet :</label>
+                    <input class="contacts-input" type="text" id="nom" name="nom" required>
+                </p>
+                <p class="contacts-p-p">
+                    <label for="telephone">Numero de telephone :</label>
+                    <input class="contacts-input" type="tel" id="telephone" name="telephone" required>
+                </p>
+                <p class="contacts-p-p">
+                    <label for="email">Adresse email :</label>
+                    <input class="contacts-input" type="email" id="email" name="email" required>
+                </p>
+                <p class="contacts-p-p">
+                    <label for="message">Message :</label>
+                    <textarea class="contacts-input" id="message" name="message" required></textarea>
+                </p>
+                <p class="contacts-p-p">
+                    <label for="objet">objet :</label>
+                    <select class="contacts-inp" name="objet" id="objet">
+                        <option value="">Choississez un sujet</option>
+                        <option value="">Faire un don</option>
+                        <option value="">Devenir bénévole</option>
+                        <option value="">Proposer un partenariat</option>
+                        <option value="">Autre</option>
+                    </select>
+                </p>
+                <p class="contacts-p-p">
+                    <label for="politique">J'accepte les termes et conditions de ce site: Oui</label>
+                    <input class="contacts-inp" type="checkbox" id="politique" name="politique" required>
+                </p>
+                <p>
+                    <input class="contacts-btn" type="submit" value="Envoyer">
+                </p>
+            </fieldset>
+        </form>
+       </section>
+    </main>
+
+    <footer>   
+       <!-- met ton code ici -->
+    </footer>
+
+>>>>>>> 5bc244f3da850b625cf1a5ce4eba4bf86f1ee679
 </body>
 </html>
