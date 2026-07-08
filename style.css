@@ -1,0 +1,182 @@
+
+/*couleur*/
+:root {
+  --vert-emeraude: #1b4332;
+  --vert-menthe: #52b788;
+  --blanc-casse: #f8f9fa;
+  --gris-sombre: #212529;
+  --font-titre: 'Poppins', sans-serif;
+  --font-texte: 'Inter', sans-serif;
+}
+
+/*initilisation*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*base de body*/
+body {
+  font-family: var(--font-texte);
+  color: var(--gris-sombre);
+  background-color: var(--blanc-casse);
+}
+
+/*conteneur, utiliser dans toutes les sections*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*PARTIE 2 : MISSIONS*/
+.missions {
+  padding: 80px 0;
+}
+
+/*Titre nos actions sur le terrain*/
+.section-title {
+  font-family: var(--font-titre);
+  font-size: 2rem;
+  text-align: center;
+  color: var(--vert-emeraude);
+  margin-bottom: 40px;
+}
+
+/*grille à 3 colonnes pour les cartes*/
+.missions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/*style d'une carte indviduelle*/
+.mission-card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease;
+}
+
+
+/*effet au survole de la souris*/
+.mission-card:hover {
+  transform: translateY(-6px);
+}
+
+/*image en haut de la page*/
+.mission-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/*titre de la carte*/
+.mission-card h3 {
+  font-family: var(--font-titre);
+  font-size: 1.1rem;
+  color: var(--vert-emeraude);
+  padding: 16px 16px 6px;
+}
+
+/*texte descriptif de la carte*/
+.mission-card p {
+  font-size: 0.9rem;
+  color: var(--gris-sombre);
+  padding: 0 16px 20px;
+  line-height: 1.5;
+}
+
+/* ===== PARTIE 3 : PROJETS (sombre) ===== */
+.projets {
+  background-color: var(--blanc-casse);
+  padding-bottom: 60px;
+}
+
+/*baniere verte*/
+.projets-banner {
+  background-color: var(--vert-emeraude);
+  color: var(--blanc-casse);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/*petit texte Projet au-dessus du titre*/
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  color: var(--vert-menthe);
+  margin-bottom: 10px;
+}
+
+/*titre principale dans la banniere*/
+.projets-banner h2 {
+  font-family: var(--font-titre);
+  font-size: 2.2rem;
+}
+
+/*grille à 2 colonnes pour les cartes de projet*/
+.projets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: -40px;
+}
+
+/*style d'une carte de projet*/
+.projet-card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.projet-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.projet-card h3 {
+  font-family: var(--font-titre);
+  font-size: 1.1rem;
+  color: var(--vert-emeraude);
+  padding: 16px 16px 6px;
+}
+
+.projet-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0 16px 20px;
+}
+
+.projets-photo {
+  margin-top: 24px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.projets-photo img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/*effet sur les deux cartes*/
+.projet-card:hover {
+  transform: translateY(-3px); /* petit effet au survol */
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .missions-grid,
+  .projets-grid {
+    grid-template-columns: 1fr;
+  }
+}
