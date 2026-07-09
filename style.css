@@ -1,4 +1,43 @@
-    :root {
+<<<<<<<<< Temporary merge branch 1
+/* meet ton style ici */
+/* Section Accueil */
+
+
+
+
+
+
+
+/* section actions */
+
+
+
+
+
+/* sections evenements */
+
+
+
+
+
+/* section contacts */
+
+
+
+
+
+
+
+
+/* section footer */
+
+
+
+
+=========
+
+/*couleur*/
+:root {
   --vert-emeraude: #1b4332;
   --vert-menthe: #52b788;
   --blanc-casse: #f8f9fa;
@@ -180,3 +219,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+>>>>>>>>> Temporary merge branch 2
