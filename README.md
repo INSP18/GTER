@@ -10,8 +10,8 @@ Listes des membres et rôles
 4. Contact / Faire un don (formulaire statique, sans traitement backend) + Repo Admin : Ndoukou Mambou Don Réel
 5. Pied de page : Pambou Prince Isaac;
 
-Lien Github : 
-Lien page : 
+Lien Github : https://github.com/INSP18/GTER.git
+Lien page : https://insp18.github.io/GTER/
 
 Conflits rencontrés et résolution : 
 Nous avons au départ créé deux fichiers de base : html et css. Le fichier html contenait la structure de base et des commentaires indiquant
