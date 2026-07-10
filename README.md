@@ -1,28 +1,24 @@
-Groupe 1 travaillant sur le projet 1
+Projet 1 _ Groupe 1
 
-Nous nous sommes dirigé sur le projet environnement et notre thème est le "Reboisement de la foret du Mayombe"
+Nom du groupe : GTER (Groupe de Travail Environnement et Reboisement)
+Thème : Environnement
 
-Les membres du groupe se constitut de:
-nom: IKEKE Salomon
-Role: Accueil (présentation de la mission, chiffres clés)
+Listes des membres et rôles
+1. Lead  : Salomon Prestige IKEKE NKOUMANDO : Accueil (présentation de la mission, chiffres clés) ;
+2. Nos actions / missions (liste ou grille de projets menés) : Dellot-Mvoumina Alty; 
+3. Événements à venir (agenda ou liste de dates) : Botoko Steven;
+4. Contact / Faire un don (formulaire statique, sans traitement backend) + Repo Admin : Ndoukou Mambou Don Réel
+5. Pied de page : Pambou Prince Isaac;
 
-nom: NDOUKOU Réel
-Role: Contact (Formulaire statique, sans traitement backend)
+Lien Github : 
+Lien page : 
 
-nom: DELLOT Alty
-role: Nos actions (grille des projets menés) 
+Conflits rencontrés et résolution : 
+Nous avons au départ créé deux fichiers de base : html et css. Le fichier html contenait la structure de base et des commentaires indiquant
+à tout le monde où il fallait mettre son code pour qu'au moment de fusionner, que le code arrive dans la balise correspondante.
 
-nom: PAMBOU Prince
-role: Pied de page (Footer)
+En fusionnant les Pull Requests, j'ai rencontré beaucoup de conflits dont je n'ai pu nommer en totalité :
+1. Erreurs d'indentation ;
+2. Non respect du rôle attribué. 
 
-nom: BOTOKO Steven
-role: Evenement avenir (Liste des date et agenda)
-
-Lien live github:
-https://pas encore disponibel
-
-Conflit rencontrer:
-nous avons cloner les fichier de base index.html et style.css sans pourtant repartitionner les differentes sections
-
-Resolution du conflit:
-nous avons eu la mabilité de rapartitionner nos fichier en differentes sections pour nous aidons à se referencier sur où mettre le code et ses style.
+POur résoudre le problème, j'ai dû ramener tout le dépôt en local, régler le problème d'indentation dans toutes les branches, placer chaque code dans sa section correspondante. 
